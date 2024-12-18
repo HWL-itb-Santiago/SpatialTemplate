@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SANTIAGO\\ITB\\UnityProjects\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C79C94A8-AA41-8925-3B96-6054B30E5318}|NewAssembly.csproj|d:\\santiago\\itb\\unityprojects\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\assets\\itb\\spatial\\scripts\\spatialscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79C94A8-AA41-8925-3B96-6054B30E5318}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\spatialscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpatialScript.cs",
+              "DocumentMoniker": "D:\\SANTIAGO\\ITB\\UnityProjects\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\Assets\\ITB\\Spatial\\Scripts\\SpatialScript.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\SpatialScript.cs",
+              "ToolTip": "D:\\SANTIAGO\\ITB\\UnityProjects\\spatial-unity-starter-template-main\\spatial-unity-starter-template-main\\Assets\\ITB\\Spatial\\Scripts\\SpatialScript.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\SpatialScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T09:08:56.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

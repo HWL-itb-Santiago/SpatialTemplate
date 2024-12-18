@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: video ramita
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":"visita
+      la web de Tierra de Vinos","pan":{"x":168.7872,"y":80.0},"zoom":1.0,"elements":[{"defaultValues":{"url":{"$content":"https://www.spatial.io/s/BOSS-Immersive-Showroom-641e08bd6127ed8eaff70faa?share=3302646144092575883","$type":"System.String"}},"position":{"x":-181.0,"y":-98.0},"guid":"9c1795df-2a07-4517-9115-db74edbc8da5","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.OpenURLNode","$id":"9"},{"coroutine":true,"defaultValues":{"interactable":null},"position":{"x":-444.0,"y":-101.0},"guid":"bf123afb-badc-4fa5-9884-fffb0e285406","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialInteractableOnInteract","$id":"11"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"inputTrigger","guid":"acb401b0-3dbd-4193-97f5-f28c32aeead0","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
