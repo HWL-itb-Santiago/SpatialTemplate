@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|c:\\users\\r3drom\\onedrive\\escritorio\\santiago\\projects\\spatialtemplate\\assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeleportPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T22:13:40.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControllerManager.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:43:40.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HoverObject.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:03:03.458Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
