@@ -10,20 +10,19 @@ public class HoverObject : MonoBehaviour
 
     private Renderer render;
 
-    public bool isEnabled = true;
-
     private void Start()
     {
-        render = GetComponent<Renderer>();
     }
 
     private void ApplyHighlight(float hoverIntensity)
     {
+        render = GetComponent<Renderer>();
         // Cambiar el material, color o activar un shader para resaltar el objeto.
         if (render)
         {
             render.material.EnableKeyword("_EMISSION");
             render.material.SetColor("_EmissionColor", hoverColor * hoverIntensity); // Ajusta la intensidad con el multiplicador.
+            SpatialBridge.coreGUIService.DisplayToastMessage("¡El objeto tiene un Renderer!");
         }
         else
         {
@@ -48,15 +47,5 @@ public class HoverObject : MonoBehaviour
     public void OffHit()
     {
         ResetHighlight();
-    }
-
-    public void EnableToInteracte()
-    {
-        isEnabled = true;
-    }
-
-    public void DisableTointeract()
-    {
-        isEnabled = false;
     }
 }

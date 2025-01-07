@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TeleportPlayer : MonoBehaviour
 {
-    private IAvatar avatar;
+    private IAvatar avatar = null;
 
     [SerializeField]
     private Transform sitDown = null;
@@ -28,7 +28,6 @@ public class TeleportPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        avatar = SpatialBridge.actorService.localActor.avatar;
         if (teleportTo == null)
             teleportTo = sitDown;
     }
@@ -36,7 +35,10 @@ public class TeleportPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (ControllerManager.avatar != null && avatar == null)
+        {
+            avatar = ControllerManager.avatar;
+        }
     }
 
     public void teleportIn()
