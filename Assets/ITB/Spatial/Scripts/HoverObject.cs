@@ -21,7 +21,7 @@ public class HoverObject : MonoBehaviour
         if (render)
         {
             render.material.EnableKeyword("_EMISSION");
-            render.material.SetColor("_EmissionColor", hoverColor * hoverIntensity); // Ajusta la intensidad con el multiplicador.
+            render.material.SetColor("_EmissionColor", hoverColor); // Ajusta la intensidad con el multiplicador.
             SpatialBridge.coreGUIService.DisplayToastMessage("¡El objeto tiene un Renderer!");
         }
         else

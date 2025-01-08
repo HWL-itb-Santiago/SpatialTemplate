@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\",
+  "WorkspaceRootPath": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|c:\\users\\cde\\desktop\\unity\\proyect\\spatialtemplate\\assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|c:\\users\\r3drom\\onedrive\\escritorio\\santiago\\projects\\spatialtemplate\\assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\blackscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\blackscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2664E757-01FC-0A15-50B5-EDF702197F5D}|Assembly-CSharp.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,28 +30,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GrabObject.cs",
-              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
-              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
-              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
-              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwCoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BlackScreen.cs",
+              "DocumentMoniker": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
+              "ToolTip": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T00:31:25.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T10:13:56.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GrabObject.cs",
+              "DocumentMoniker": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
+              "ToolTip": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:31:25.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TeleportPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
-              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "ToolTip": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ControllerManager.cs",
-              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "DocumentMoniker": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
-              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "ToolTip": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwFYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T18:43:40.957Z"
             },
@@ -69,11 +84,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HoverObject.cs",
-              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "DocumentMoniker": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
-              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "ToolTip": "C:\\Users\\cde\\Desktop\\Unity\\Proyect\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T18:03:03.458Z",
               "EditorCaption": ""

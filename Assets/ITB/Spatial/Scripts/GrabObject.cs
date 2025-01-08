@@ -1,16 +1,20 @@
 using System.Collections;
 using UnityEngine;
 using SpatialSys.UnitySDK;
+using UnityEngine.XR;
 
 public class GrabObject : MonoBehaviour
 {
     private IAvatar avatar = null;
-    private float zOffset;
     private bool isGrabbing = false;
+    private float zOffset;
     private Vector3 refVelocity;
 
     [SerializeField]
-    private float smoothDamp = 0.1f;
+    private float smoothDamp;
+
+    [SerializeField]
+    private float xrOffset;
 
     private void Start()
     {
@@ -34,9 +38,9 @@ public class GrabObject : MonoBehaviour
         if (!isGrabbing)
         {
             isGrabbing = true;
-
+            Transform bone = avatar.GetAvatarBoneTransform(HumanBodyBones.RightHand);
             // Calcular el offset inicial de profundidad desde la cámara
-            Vector3 mouseWorldPosition = SpatialBridge.cameraService.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+            //Vector3 mouseWorldPosition = SpatialBridge.cameraService.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
             zOffset = Vector3.Distance(transform.position, SpatialBridge.cameraService.position);
 
             StartCoroutine(GrabCoroutine());
@@ -51,9 +55,9 @@ public class GrabObject : MonoBehaviour
 
             if (ControllerManager.isXR)
             {
-                // Obtener la posición del hueso de la mano derecha en VR
                 Transform bone = avatar.GetAvatarBoneTransform(HumanBodyBones.RightHand);
-                newTransform = bone.position;
+                // Obtener la posición del hueso de la mano derecha en VR
+                newTransform = bone.position + (bone.up * xrOffset);
 
                 transform.SetParent(bone);
             }
