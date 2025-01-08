@@ -5,18 +5,18 @@ using SpatialSys.UnitySDK;
 
 public class ControllerManager : MonoBehaviour
 {
+    static public ControllerManager Instance;
     [SerializeField]
     private LayerMask interactableLayer;
 
     [SerializeField]
-    private float hoverIntesity;
+    public float hoverIntesity;
 
     private GameObject lastHighlightedObject = null;
 
-    private HoverObject hoverObject;
-
     static public IAvatar avatar;
 
+    [SerializeField]
     private SpatialInteractable interactable;
 
     static public RaycastHit hitHand;
@@ -29,6 +29,14 @@ public class ControllerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(Instance);
+        }
     }
 
     // Update is called once per frame
@@ -39,12 +47,15 @@ public class ControllerManager : MonoBehaviour
             avatar = SpatialBridge.actorService.localActor.avatar;
             SpatialBridge.cameraService.forceFirstPerson = true;
         }
+    }
+
+    private void FixedUpdate()
+    {
         if (avatar != null)
         {
             RayCastHit();
         }
     }
-
     private void RayCastHit()
     {
         Ray rayHand;
@@ -73,22 +84,26 @@ public class ControllerManager : MonoBehaviour
         {
             if (lastHighlightedObject != hitHand.collider.gameObject)
             {
-                HoverObject lastHover = lastHighlightedObject ? lastHighlightedObject.GetComponent<HoverObject>() : null;
-                if (lastHover != null)
+                InteractableObject lastObject = lastHighlightedObject ? lastHighlightedObject.GetComponent<InteractableObject>() : null;
+                //HoverObject lastHover = lastHighlightedObject ? lastHighlightedObject.GetComponent<HoverObject>() : null;
+                InteractableObject hoverObject;
+                if (lastObject != null)
                 {
-                    lastHover.OffHit();
-                    interactable = lastHighlightedObject.GetComponent<SpatialInteractable>();
-                    interactable.enabled = false;
+                    lastObject.newInteractState = false;
+                    //lastHover.OffHit();
+                    //interactable = lastHighlightedObject.GetComponent<SpatialInteractable>();
+                    //interactable.enabled = false;
                 }
-                hoverObject = hitHand.collider.gameObject.GetComponent<HoverObject>();
+                hoverObject = hitHand.collider.gameObject.GetComponent<InteractableObject>();
 
                 if (hoverObject != null)
                 {
-                    hoverObject.HitRayCast(hoverIntesity);
+                    hoverObject.newInteractState = true;
+                    //hoverObject.HitRayCast(hoverIntesity);
                     lastHighlightedObject = hitHand.collider.gameObject;
 
-                    interactable = lastHighlightedObject.GetComponent<SpatialInteractable>();
-                    interactable.enabled = true;
+                    //interactable = lastHighlightedObject.GetComponent<SpatialInteractable>();
+                    //interactable.enabled = true;
 
                     SpatialBridge.inputService.PlayVibration(0.2f, 0.1f, 0.12f);
                 }
@@ -99,15 +114,16 @@ public class ControllerManager : MonoBehaviour
         {
             if (lastHighlightedObject != null)
             {
-                HoverObject lastObject = lastHighlightedObject.GetComponent<HoverObject>();
+                InteractableObject lastObject = lastHighlightedObject.GetComponent<InteractableObject>();
                 if (lastObject != null)
                 {
-                    lastObject.OffHit();
-                    if (interactable != null)
-                        interactable.enabled = false;
+                    lastObject.newInteractState = false;
+                    //lastObject.OffHit();
+                    //if (interactable != null)
+                    //    interactable.enabled = false;
                 }
                 lastHighlightedObject = null;
-                interactable = null;
+                //interactable = null;
             }
         }
     }

@@ -20,31 +20,32 @@ public class BlackScreen : MonoBehaviour
         {
             avatar = ControllerManager.avatar;
             lastAvatarPosition = avatar.position;
-            gameObject.transform.position = SpatialBridge.cameraService.position;
         }
+    }
 
-        if ( avatar != null && avatar.position != lastAvatarPosition)
+    private void FixedUpdate()
+    {
+
+        if (avatar != null && avatar.position != lastAvatarPosition)
         {
             OnAvatarMove();
         }
     }
-
     private void OnAvatarMove()
     {
         lastAvatarPosition = avatar.position;
-        gameObject.transform.position = SpatialBridge.cameraService.position;
         StartCoroutine(nameof(EnabledMesh));
     }
 
     private IEnumerator EnabledMesh()
     {
-        float duration = 0.25f;
-        gameObject.GetComponent<MeshRenderer>().enabled = true;
+        float duration = 0.35f;
+        gameObject.GetComponent<Canvas>().enabled = true;
         while (duration > 0.0f)
         {
             duration -= Time.deltaTime;
             yield return null;
         }
-        gameObject.GetComponent<MeshRenderer>().enabled = false;
+        gameObject.GetComponent<Canvas>().enabled = false;
     }
 }

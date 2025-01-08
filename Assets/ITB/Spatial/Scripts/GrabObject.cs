@@ -6,7 +6,7 @@ using UnityEngine.XR;
 public class GrabObject : MonoBehaviour
 {
     private IAvatar avatar = null;
-    private bool isGrabbing = false;
+    public bool isGrabbing = false;
     private float zOffset;
     private Vector3 refVelocity;
 

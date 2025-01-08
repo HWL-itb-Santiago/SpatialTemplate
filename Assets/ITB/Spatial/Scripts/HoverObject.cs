@@ -2,50 +2,66 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using SpatialSys.UnitySDK;
+using UnityEngine.Rendering;
 
 public class HoverObject : MonoBehaviour
 {
     [SerializeField]
     private Color hoverColor;
 
-    private Renderer render;
+    [SerializeField]
+    private MeshRenderer render;
 
     private void Start()
     {
     }
 
-    private void ApplyHighlight(float hoverIntensity)
+    private IEnumerator ApplyHighlight(float hoverIntensity)
     {
-        render = GetComponent<Renderer>();
         // Cambiar el material, color o activar un shader para resaltar el objeto.
         if (render)
         {
-            render.material.EnableKeyword("_EMISSION");
-            render.material.SetColor("_EmissionColor", hoverColor); // Ajusta la intensidad con el multiplicador.
-            SpatialBridge.coreGUIService.DisplayToastMessage("¡El objeto tiene un Renderer!");
+            Material material;
+            render.enabled = true;
+
+            material = render.material;
+            if (material != null)
+            {
+                material.EnableKeyword("_EMISSION");
+                material.SetColor("_EmissionColor", hoverColor * hoverIntensity); // Ajusta la intensidad con el multiplicador.
+                Debug.Log(material);
+                SpatialBridge.coreGUIService.DisplayToastMessage("¡El objeto tiene un Renderer!");
+            }
         }
         else
         {
             SpatialBridge.coreGUIService.DisplayToastMessage("¡El objeto no tiene un Renderer!");
         }
+        yield return null;
     }
 
-    private void ResetHighlight()
+    private IEnumerator ResetHighlight()
     {
         // Restaurar el material o color original.
         if (render)
         {
+            render.enabled = false;
             render.material.DisableKeyword("_EMISSION");
         }
+        yield return null;
     }
 
-    public void HitRayCast(float hoverIntensity)
+    public void ChangeStateObject(bool state)
     {
-        ApplyHighlight(hoverIntensity);
+        float hoverIntensity = ControllerManager.Instance.hoverIntesity;
+        if (state == true)
+            StartCoroutine(ApplyHighlight(hoverIntensity));
+        else
+            StartCoroutine(ResetHighlight());
     }
 
     public void OffHit()
     {
-        ResetHighlight();
+        StartCoroutine(ResetHighlight());
     }
 }
