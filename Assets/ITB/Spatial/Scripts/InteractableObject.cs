@@ -10,35 +10,49 @@ public class InteractableObject : MonoBehaviour
     public bool newInteractState = false;
 
     [SerializeField]
-    private SpatialInteractable OnAction;
+    private SpatialInteractable OnAction = null;
 
     [SerializeField]
-    private SpatialInteractable OnRelease;
+    private SpatialInteractable OnRelease = null;
 
     [SerializeField]
-    private HoverObject objectToHover;
+    private HoverObject objectToHover = null;
 
     [SerializeField]
-    private GrabObject objectToGrab;
+    private GrabObject objectToGrab = null;
     // Start is called before the first frame update
     void Start()
     {
-        OnRelease.enabled = false;
-        OnAction.enabled = false;
+        if (OnRelease != null)
+            OnRelease.enabled = false;
+        if (OnAction != null)
+            OnAction.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    private void FixedUpdate()
+    {
         if (InteractState != newInteractState)
             Interactable();
     }
-
     public void Interactable()
     {
+        //Collider collider = GetComponent<Collider>();
+        //if (collider != null)
+        //    collider.isTrigger = newInteractState;
+        //Rigidbody rb = GetComponent<Rigidbody>();
+        //if (rb != null)
+        //    rb.useGravity = !newInteractState;
         objectToHover?.ChangeStateObject(newInteractState);
-        OnAction.enabled = newInteractState;
-        OnRelease.enabled = objectToGrab.isGrabbing;
+        if (OnAction != null)
+            OnAction.enabled = newInteractState;
+        if (OnRelease != null && objectToGrab != null)
+            OnRelease.enabled = objectToGrab.isGrabbing;
         InteractState = newInteractState;
     }
 }

@@ -14,14 +14,12 @@ public class ControllerManager : MonoBehaviour
 
     private GameObject lastHighlightedObject = null;
 
-    static public IAvatar avatar;
+    public IAvatar avatar;
 
     [SerializeField]
     private SpatialInteractable interactable;
 
-    static public RaycastHit hitHand;
-
-    static public bool isXR = false;
+    public bool isXR = false;
     private void Awake()
     {
 
@@ -45,7 +43,6 @@ public class ControllerManager : MonoBehaviour
         if (SpatialBridge.actorService.localActor.avatar.isBodyLoaded)
         {
             avatar = SpatialBridge.actorService.localActor.avatar;
-            SpatialBridge.cameraService.forceFirstPerson = true;
         }
     }
 
@@ -55,32 +52,26 @@ public class ControllerManager : MonoBehaviour
         {
             RayCastHit();
         }
+        SpatialBridge.coreGUIService.DisplayToastMessage(Input.mousePresent.ToString());
     }
     private void RayCastHit()
     {
         Ray rayHand;
-        if (Input.mousePresent)
-        {
-            rayHand = SpatialBridge.cameraService.ScreenPointToRay(Input.mousePosition);
-        }
-        else
+        RaycastHit hitHand;
+        if (SpatialBridge.cameraService.xrCameraMode == XRCameraMode.FirstPerson && Input.mousePresent == false)
         {
             isXR = true;
             Transform rightHandTransform = avatar.GetAvatarBoneTransform(HumanBodyBones.RightHand);
-            // Vector inicial que apunta hacia arriba
-            Vector3 originalVector = rightHandTransform.up;
 
-            // Rotación de 15 grados alrededor del eje Z
-            Quaternion rotation = Quaternion.Euler(0, 0, 2);
-
-            // Aplica la rotación al vector
-            Vector3 rotatedVector = rotation * originalVector;
-
-            rayHand = new Ray(rightHandTransform.position, rotatedVector);
+            rayHand = new Ray(rightHandTransform.position, rightHandTransform.up);
         }
 
+        else
+        {
+            rayHand = SpatialBridge.cameraService.ScreenPointToRay(Input.mousePosition);
+        }
 
-        if (Physics.Raycast(rayHand, out hitHand, Mathf.Infinity, interactableLayer))
+        if (Physics.Raycast(rayHand, out hitHand, 10f, interactableLayer))
         {
             if (lastHighlightedObject != hitHand.collider.gameObject)
             {
@@ -105,7 +96,7 @@ public class ControllerManager : MonoBehaviour
                     //interactable = lastHighlightedObject.GetComponent<SpatialInteractable>();
                     //interactable.enabled = true;
 
-                    SpatialBridge.inputService.PlayVibration(0.2f, 0.1f, 0.12f);
+                    SpatialBridge.inputService.PlayVibration(0.15f, 0.5f, 0.05f);
                 }
 
             }

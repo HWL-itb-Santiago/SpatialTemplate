@@ -35,9 +35,9 @@ public class TeleportPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ControllerManager.avatar != null && avatar == null)
+        if (ControllerManager.Instance.avatar != null && avatar == null)
         {
-            avatar = ControllerManager.avatar;
+            avatar = ControllerManager.Instance.avatar;
         }
     }
 
