@@ -23,8 +23,17 @@ MonoBehaviour:
   csharpAssembly: {fileID: 5897886265953266890, guid: 3fd5c29799a6319409cb7f8d9d5235d8,
     type: 3}
   embeddedPackageAssets: []
-  networkPrefabs: []
+  networkPrefabs:
+  - referenceType: 2
+    networkObject: {fileID: 3532159000295990646, guid: c8cf23500bd5b0b46b32fc1ec283cfb5,
+      type: 3}
+  - referenceType: 2
+    networkObject: {fileID: 1667446219452841203, guid: 8b107a61953acaf4fbdea033111388ed,
+      type: 3}
+  - referenceType: 2
+    networkObject: {fileID: 8963033465599269072, guid: d7d0f55f63bf35c479fd46d6b588bfc9,
+      type: 3}
   settings:
     serverInstancingEnabled: 1
     serverCapacitySetting: 1
-    serverInstanceCapacity: 16
+    serverInstanceCapacity: 1

@@ -22,7 +22,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21312
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -31,7 +31,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -41,7 +41,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.x
+    attribute: material._BaseColor.r
     path: 
     classID: 23
     script: {fileID: 0}
@@ -50,7 +50,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21312
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -69,7 +69,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.y
+    attribute: material._BaseColor.g
     path: 
     classID: 23
     script: {fileID: 0}
@@ -78,7 +78,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21312
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -97,7 +97,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.z
+    attribute: material._BaseColor.b
     path: 
     classID: 23
     script: {fileID: 0}
@@ -125,119 +125,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.w
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.r
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.g
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.b
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.a
+    attribute: material._BaseColor.a
     path: 
     classID: 23
     script: {fileID: 0}
@@ -251,56 +139,28 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 144923010
+      attribute: 1136458424
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 413358466
+      attribute: 1404893880
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 681793922
+      attribute: 1673329336
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 950229378
-      script: {fileID: 0}
-      typeID: 23
-      customType: 22
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 1218664834
-      script: {fileID: 0}
-      typeID: 23
-      customType: 22
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 1487100290
-      script: {fileID: 0}
-      typeID: 23
-      customType: 22
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 1755535746
-      script: {fileID: 0}
-      typeID: 23
-      customType: 22
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 2023971202
+      attribute: 1941764792
       script: {fileID: 0}
       typeID: 23
       customType: 22
@@ -332,7 +192,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21312
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -341,7 +201,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -351,7 +211,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.x
+    attribute: material._BaseColor.r
     path: 
     classID: 23
     script: {fileID: 0}
@@ -360,7 +220,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21312
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -379,7 +239,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.y
+    attribute: material._BaseColor.g
     path: 
     classID: 23
     script: {fileID: 0}
@@ -388,7 +248,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21312
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -407,7 +267,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.z
+    attribute: material._BaseColor.b
     path: 
     classID: 23
     script: {fileID: 0}
@@ -435,119 +295,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._EmissionColor.w
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.r
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.g
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.b
-    path: 
-    classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._EmissionColor.a
+    attribute: material._BaseColor.a
     path: 
     classID: 23
     script: {fileID: 0}
