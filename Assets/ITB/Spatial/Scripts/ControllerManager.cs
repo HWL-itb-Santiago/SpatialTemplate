@@ -14,10 +14,7 @@ public class ControllerManager : MonoBehaviour
 
     private GameObject lastHighlightedObject = null;
 
-    public IAvatar avatar;
-
-    [SerializeField]
-    private SpatialInteractable interactable;
+    public IAvatar avatar = null;
 
     public bool isXR = false;
     private void Awake()
@@ -37,6 +34,10 @@ public class ControllerManager : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        SpatialBridge.actorService.onActorJoined += HandleActorJoined;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -45,20 +46,32 @@ public class ControllerManager : MonoBehaviour
             avatar = SpatialBridge.actorService.localActor.avatar;
         }
     }
+    private void HandleActorJoined(ActorJoinedEventArgs args)
+    {
+        IActor actor = SpatialBridge.actorService.actors[args.actorNumber];
 
+        SpatialBridge.coreGUIService.DisplayToastMessage(actor.displayName + " joined the space");
+
+        // Subscribe to property changes
+        actor.onCustomPropertiesChanged += (ActorCustomPropertiesChangedEventArgs customPropertiesArgs) => {
+            if (customPropertiesArgs.changedProperties.ContainsKey("cookies"))
+            {
+                SpatialBridge.coreGUIService.DisplayToastMessage(actor.displayName + " has collected  ");
+            }
+        };
+    }
     private void FixedUpdate()
     {
         if (avatar != null)
         {
             RayCastHit();
         }
-        SpatialBridge.coreGUIService.DisplayToastMessage(Input.mousePresent.ToString());
     }
     private void RayCastHit()
     {
         Ray rayHand;
         RaycastHit hitHand;
-        if (SpatialBridge.cameraService.xrCameraMode == XRCameraMode.FirstPerson && Input.mousePresent == false)
+        if (avatar != null && Vector3.Distance(SpatialBridge.cameraService.position, avatar.GetAvatarBoneTransform(HumanBodyBones.Head).position) <= 0)
         {
             isXR = true;
             Transform rightHandTransform = avatar.GetAvatarBoneTransform(HumanBodyBones.RightHand);
@@ -71,7 +84,7 @@ public class ControllerManager : MonoBehaviour
             rayHand = SpatialBridge.cameraService.ScreenPointToRay(Input.mousePosition);
         }
 
-        if (Physics.Raycast(rayHand, out hitHand, 10f, interactableLayer))
+        if (Physics.Raycast(rayHand, out hitHand, Mathf.Infinity, interactableLayer))
         {
             if (lastHighlightedObject != hitHand.collider.gameObject)
             {

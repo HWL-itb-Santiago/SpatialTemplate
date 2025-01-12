@@ -7,6 +7,8 @@ using TMPro;
 public class GrabObject : MonoBehaviour
 {
     private IAvatar avatar = null;
+
+    Rigidbody rb;
     public bool isGrabbing = false;
     private float zOffset;
     private Vector3 refVelocity;
@@ -19,6 +21,7 @@ public class GrabObject : MonoBehaviour
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody>();
         refVelocity = Vector3.zero;
         if (ControllerManager.Instance.avatar != null && avatar == null)
         {
@@ -78,6 +81,11 @@ public class GrabObject : MonoBehaviour
 
             //Desactivar colisiones mientras se mueve
             gameObject.GetComponent<BoxCollider>().isTrigger = true;
+            if (rb != null)
+            {
+                rb.useGravity = false;
+            }
+
 
             yield return null;
         }
@@ -97,6 +105,10 @@ public class GrabObject : MonoBehaviour
 
             //Restaurar las colisiones
             gameObject.GetComponent<BoxCollider>().isTrigger = false;
+            if (rb != null)
+            {
+                rb.useGravity = true;
+            }
         }
     }
 }

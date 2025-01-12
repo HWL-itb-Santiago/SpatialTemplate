@@ -33,6 +33,12 @@ MonoBehaviour:
   - referenceType: 2
     networkObject: {fileID: 8963033465599269072, guid: d7d0f55f63bf35c479fd46d6b588bfc9,
       type: 3}
+  - referenceType: 2
+    networkObject: {fileID: 8491980523907614538, guid: 29a49e06fde767e4fa48b5b2e8929d04,
+      type: 3}
+  - referenceType: 2
+    networkObject: {fileID: 8327735042065294628, guid: 0796acd1c9482914fa4a2b2225c8944c,
+      type: 3}
   settings:
     serverInstancingEnabled: 1
     serverCapacitySetting: 1

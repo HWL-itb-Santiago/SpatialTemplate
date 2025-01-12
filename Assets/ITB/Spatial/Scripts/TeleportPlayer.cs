@@ -14,16 +14,7 @@ public class TeleportPlayer : MonoBehaviour
     private Transform goOut = null;
 
     [SerializeField]
-    private Transform teleportTo = null;
-
-    //[SerializeField]
-    //private GameObject target;
-
-    //[SerializeField]
-    //private Transform targetSit;
-
-    //private Vector3 targetPosition;
-    //private Quaternion targetRotation;
+    private Transform teleportTo = null; 
 
     // Start is called before the first frame update
     void Start()

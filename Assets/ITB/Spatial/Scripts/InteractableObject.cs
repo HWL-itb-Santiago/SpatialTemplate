@@ -42,17 +42,13 @@ public class InteractableObject : MonoBehaviour
     }
     public void Interactable()
     {
-        //Collider collider = GetComponent<Collider>();
-        //if (collider != null)
-        //    collider.isTrigger = newInteractState;
-        //Rigidbody rb = GetComponent<Rigidbody>();
-        //if (rb != null)
-        //    rb.useGravity = !newInteractState;
-        objectToHover?.ChangeStateObject(newInteractState);
+        if (objectToHover != null)
+            objectToHover.ChangeStateObject(newInteractState);
         if (OnAction != null)
             OnAction.enabled = newInteractState;
         if (OnRelease != null && objectToGrab != null)
             OnRelease.enabled = objectToGrab.isGrabbing;
         InteractState = newInteractState;
+        Debug.Log(InteractState);
     }
 }

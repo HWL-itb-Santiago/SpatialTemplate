@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\",
+  "WorkspaceRootPath": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|c:\\users\\argo\\desktop\\spatialtemplate\\assets\\itb\\spatial\\scripts\\grabobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\grabobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\argo\\Desktop\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\argo\\Desktop\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\argo\\Desktop\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\argo\\Desktop\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\argo\\Desktop\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|c:\\users\\r3drom\\onedrive\\escritorio\\santiago\\projects\\spatialtemplate\\assets\\itb\\spatial\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\argo\\Desktop\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\blackscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\blackscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\hoverobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\argo\\Desktop\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\controllermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\teleportplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\tutorialview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\tutorialview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\vidplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\vidplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\grabobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\assets\\itb\\spatial\\scripts\\grabobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB22FDF-3D97-C52F-011B-3296AFE6542F}|NewAssembly.csproj|solutionrelative:assets\\itb\\spatial\\scripts\\grabobjectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,100 +46,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GrabObjectSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
-              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TutorialView.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TutorialView.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\TutorialView.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TutorialView.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\TutorialView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T14:01:47.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T19:51:20.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "VidPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\VidPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\VidPlayer.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\VidPlayer.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\VidPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T23:12:20.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GrabObjectSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
+              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\GrabObjectSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:01:47.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CubeSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\CubeSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\CubeSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\CubeSpawner.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\CubeSpawner.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\CubeSpawner.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\CubeSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T13:45:10.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "InteractableObject.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\InteractableObject.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\InteractableObject.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\InteractableObject.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\InteractableObject.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\InteractableObject.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\InteractableObject.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T17:21:26.139Z"
+              "WhenOpened": "2025-01-08T17:21:26.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BlackScreen.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
-              "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
-              "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\BlackScreen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T10:13:56.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "GrabObject.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\GrabObject.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwGEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwGoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T00:31:25.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "TeleportPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\TeleportPlayer.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwBAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T22:13:40.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ControllerManager.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\ControllerManager.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAIwGIAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T18:43:40.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "HoverObject.cs",
-              "DocumentMoniker": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "DocumentMoniker": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
               "RelativeDocumentMoniker": "Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
-              "ToolTip": "C:\\Users\\argo\\Desktop\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
+              "ToolTip": "C:\\Users\\R3DROM\\OneDrive\\Escritorio\\SANTIAGO\\PROJECTS\\SpatialTemplate\\Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
               "RelativeToolTip": "Assets\\ITB\\Spatial\\Scripts\\HoverObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
